@@ -1,0 +1,43 @@
+---
+generate_abap_reports:
+  description: Automate the generation of standard and custom ABAP reports based on
+    business requirements.
+  expected_output: A set of ABAP reports generated automatically, tailored to specific
+    business needs.
+  async_execution: false
+  agent: abap_report_generator
+create_forms:
+  description: Automate the creation of forms using SAPscript or Smart Forms for various
+    business processes.
+  expected_output: A collection of forms created automatically, ready for deployment
+    in business processes.
+  async_execution: false
+  agent: form_creator
+develop_modules:
+  description: Automate the generation of function modules and classes to enhance
+    code reusability and efficiency.
+  expected_output: A suite of function modules and classes generated automatically,
+    improving development efficiency.
+  async_execution: false
+  agent: module_developer
+automate_data_dictionary:
+  description: Automate the creation of data dictionary objects like tables, data
+    elements, and domains.
+  expected_output: A set of data dictionary objects created automatically, ready for
+    integration into SAP systems.
+  async_execution: false
+  agent: data_dictionary_automator
+implement_enhancements:
+  description: Automate the implementation of user exits, BAdIs, and enhancement points
+    for system customization.
+  expected_output: A series of enhancements implemented automatically, allowing for
+    seamless system customization.
+  async_execution: false
+  agent: enhancement_specialist
+develop_rap_applications:
+  description: Automate the generation of ABAP RESTful Application Programming (RAP)
+    code for modern SAP applications.
+  expected_output: A set of RAP applications generated automatically, leveraging modern
+    SAP technologies.
+  async_execution: false
+  agent: rap_application_developer

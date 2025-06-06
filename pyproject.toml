@@ -1,0 +1,23 @@
+[project]
+name = "automating_sap_abap_code_for_crew_efficiency"
+version = "0.1.0"
+description = "automating_sap_abap_code_for_crew_efficiency using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.119.0,<1.0.0"
+]
+
+[project.scripts]
+automating_sap_abap_code_for_crew_efficiency = "automating_sap_abap_code_for_crew_efficiency.main:run"
+run_crew = "automating_sap_abap_code_for_crew_efficiency.main:run"
+train = "automating_sap_abap_code_for_crew_efficiency.main:train"
+replay = "automating_sap_abap_code_for_crew_efficiency.main:replay"
+test = "automating_sap_abap_code_for_crew_efficiency.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
